@@ -120,15 +120,15 @@ body{
     visibility: hidden;
 }
 
-.insideHidden:hover > p, .insideHidden:hover > img{
-    visibility: visible;
-}
-
-.insideHidden:hover{
-    border: none !important;
-}
-
 .hidden:hover{
     border-right: 3px dotted black;
     border-bottom: 3px dotted black;
+}
+
+.hidden:hover > .insideHidden{
+    border: none !important;
+}
+
+.hidden:hover > .insideHidden > p, .hidden:hover > .insideHidden > img{
+    visibility: visible;
 }
