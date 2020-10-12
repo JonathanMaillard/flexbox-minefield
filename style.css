@@ -10,6 +10,7 @@ body{
     align-items: center;
 
     height: 100vh;
+    user-select: none; 
 }
 
 .mineContainer{
@@ -38,7 +39,6 @@ body{
     background-color: #CACACA;
     width: 400px;
     height: 400px;
-    line-height: 0;
 
     font-size: 24px;
     font-weight: bold;
@@ -51,8 +51,8 @@ body{
     align-items: center;
     border-bottom: 3px dotted black;
     border-right: 3px dotted black;
-    width: 45px;
-    height: 45px;
+    width: 47px;
+    height: 47px;
 }
 
 .hidden{
@@ -73,8 +73,8 @@ body{
 }
 
 .insideHidden{
-    height:43px;
-    width: 43px;
+    height:45px;
+    width: 45px;
     border-top: 2px solid white;
     border-left: 2px solid white;
     border-right: 2px solid #919191;
