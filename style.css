@@ -10,7 +10,9 @@ body{
     align-items: center;
 
     height: 100vh;
-    user-select: none; 
+    user-select: none;
+
+    font-family: 'VT323', monospace;
 }
 
 .mineContainer{
@@ -40,7 +42,7 @@ body{
     width: 400px;
     height: 400px;
 
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
 
 }
@@ -73,12 +75,12 @@ body{
 }
 
 .insideHidden{
-    height:45px;
-    width: 45px;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-    border-right: 2px solid #919191;
-    border-bottom: 2px solid #919191;
+    height:41px;
+    width: 41px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid #919191;
+    border-bottom: 3px solid #919191;
 
     color: #CACACA !important;
 
