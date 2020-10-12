@@ -19,17 +19,17 @@ body{
     border: 1px solid black;
 }
 .outerBorder{
-    border-top: 6px solid #CACACA;
-    border-left: 6px solid #CACACA;
-    border-bottom: 6px solid #CACACA;
-    border-right: 6px solid #ffffff;
+    border-top: 10px solid #CACACA;
+    border-left: 10px solid #CACACA;
+    border-bottom: 10px solid #CACACA;
+    border-right: 10px solid #ffffff;
 }
 
 .innerBorder{
-    border-top: 6px solid #919191;
-    border-left: 6px solid #919191;
-    border-bottom: 6px solid #ffffff;
-    border-right: 6px solid #ffffff;
+    border-top: 10px solid #919191;
+    border-left: 10px solid #919191;
+    border-bottom: 10px solid #ffffff;
+    border-right: 10px solid #ffffff;
 }
 
 .minefield{
