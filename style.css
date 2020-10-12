@@ -123,3 +123,12 @@ body{
 .insideHidden:hover > p, .insideHidden:hover > img{
     visibility: visible;
 }
+
+.insideHidden:hover{
+    border: none !important;
+}
+
+.hidden:hover{
+    border-right: 3px dotted black;
+    border-bottom: 3px dotted black;
+}
