@@ -1,5 +1,5 @@
 *{
-    
+
     margin: 0;
     padding: 0;
     
@@ -47,7 +47,9 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
     background-color: #CACACA;
+
     width: 400px;
     height: 400px;
 
@@ -62,8 +64,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
     border-bottom: 3px dotted black;
     border-right: 3px dotted black;
+
     width: 47px;
     height: 47px;
 }
@@ -95,13 +99,13 @@ body{
 
 .insideHidden{
 
-    height:41px;
-    width: 41px;
+    height:39px;
+    width: 39px;
 
-    border-top: 3px solid white;
-    border-left: 3px solid white;
-    border-right: 3px solid #919191;
-    border-bottom: 3px solid #919191;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid #919191;
+    border-bottom: 4px solid #919191;
 
 
     display: flex;
