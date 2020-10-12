@@ -1,19 +1,26 @@
 *{
+    
     margin: 0;
     padding: 0;
-    cursor: default;
+    
 }
 
 body{
+
     display: flex;
     justify-content: center;
     align-items: center;
 
     height: 100vh;
+
     user-select: none;
+    cursor: default;
 
     font-family: 'VT323', monospace;
+
 }
+
+/*Style Game's Borders*/
 
 .mineContainer{
     border: 1px solid black;
@@ -32,6 +39,8 @@ body{
     border-right: 10px solid #ffffff;
 }
 
+/*Style the game area*/
+
 .minefield{
     display: flex;
     flex-wrap: wrap;
@@ -47,6 +56,8 @@ body{
 
 }
 
+/*Style Cells*/
+
 .one, .two, .three, .empty, .bomb, .hidden{
     display: flex;
     justify-content: center;
@@ -57,10 +68,9 @@ body{
     height: 47px;
 }
 
-.hidden{
-    border-right: 3px solid black;
-    border-bottom: 3px solid black;
-}
+
+
+/*Color the numbers*/
 
 .one{
     color: #5800FF;
@@ -74,9 +84,20 @@ body{
     color: #FF0000;
 }
 
+/*Style hidden blocks*/
+
+.hidden{
+
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+
+}
+
 .insideHidden{
+
     height:41px;
     width: 41px;
+
     border-top: 3px solid white;
     border-left: 3px solid white;
     border-right: 3px solid #919191;
@@ -86,8 +107,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
+/*Hover System*/
 
 .insideHidden p, .insideHidden img{
     visibility: hidden;
