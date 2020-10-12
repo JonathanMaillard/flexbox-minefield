@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.mineContainer{
+    border: 1px solid black;
+}
+.outerBorder{
+    border-top: 6px solid #CACACA;
+    border-left: 6px solid #CACACA;
+    border-bottom: 6px solid #CACACA;
+    border-right: 6px solid #ffffff;
+}
+
+.innerBorder{
+    border-top: 6px solid #919191;
+    border-left: 6px solid #919191;
+    border-bottom: 6px solid #ffffff;
+    border-right: 6px solid #ffffff;
+}
+
+.minefield{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #CACACA;
+    width: 400px;
+    height: 400px;
+    line-height: 0;
+
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.one, .two, .three, .empty, .bomb, .hidden{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px dotted black;
+    border-right: 3px dotted black;
+    width: 45px;
+    height: 45px;
+}
+
+.hidden{
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.one{
+    color: #5800FF;
+}
+
+.two{
+    color: #00A200;
+}
+
+.three{
+    color: #FF0000;
+}
+
+.insideHidden{
+    height:43px;
+    width: 43px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid #919191;
+    border-bottom: 2px solid #919191;
+
+    color: #CACACA !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insideHidden.one:hover{
+    color: #5800FF !important;
+}
+.insideHidden.two:hover{
+    color: #00A200 !important;
+}
+.insideHidden.three:hover{
+    color: #FF0000 !important;
+}
+
+
