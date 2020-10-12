@@ -82,21 +82,17 @@ body{
     border-right: 3px solid #919191;
     border-bottom: 3px solid #919191;
 
-    color: #CACACA !important;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.insideHidden.one:hover{
-    color: #5800FF !important;
-}
-.insideHidden.two:hover{
-    color: #00A200 !important;
-}
-.insideHidden.three:hover{
-    color: #FF0000 !important;
+
+.insideHidden p, .insideHidden img{
+    visibility: hidden;
 }
 
-
+.insideHidden:hover > p, .insideHidden:hover > img{
+    visibility: visible;
+}
